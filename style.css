@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Arapey", Arial, Helvetica, sans-serif;
+  font-size: 20px;
 }
 .grid {
   display: grid;
@@ -33,5 +34,34 @@ a {
 }
 .head-container h2,
 .head-container li {
-  margin: 10px;
+  margin: 50px;
+  list-style: none;
+}
+.head-container {
+  padding: 50px;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+}
+main h3,
+main p {
+  margin: 20px;
+  padding: 25px;
+}
+main {
+  border: 1px solid white;
+  -webkit-box-shadow: 4px 2px 12px 1px rgba(112, 108, 112, 0.47);
+  -moz-box-shadow: 4px 2px 12px 1px rgba(112, 108, 112, 0.47);
+  box-shadow: 4px 2px 12px 1px rgba(112, 108, 112, 0.47);
+  margin-top: 25px;
+}
+h1 {
+  text-align: right;
+  font-size: 60px;
+}
+main h3 {
+  display: inline;
+}
+p {
+  line-height: 1.5em;
 }
